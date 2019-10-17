@@ -8,7 +8,7 @@ jobs:
           name: STEP 1
           command: |
             echo 'Hello earth'
-            exit 1
+            exit 0
       - checkout
       - run:
           name: STEP 2
