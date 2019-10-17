@@ -14,6 +14,7 @@ jobs:
           name: STEP 2
           command: |
             echo 'hello world'
+            ls -al
       - run:
           name: STEP 3
           command: |
