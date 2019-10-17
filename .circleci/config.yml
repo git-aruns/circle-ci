@@ -8,12 +8,15 @@ jobs:
           name: STEP 1
           command: |
             echo 'Hello earth'
+      - run:
           name: STEP 2
           command: |
             echo 'hello world'
+      - run:
           name: STEP 3
           command: |
             echo 'hello universe'
+      - run:
           name: STEP 4
           command: |
             echo 'hello galaxy'
