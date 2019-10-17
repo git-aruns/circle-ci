@@ -1,8 +1,9 @@
 version: 2.1
 jobs:
   Hello-World:
-    docker:
-      - image: alpine:3.7
+    macos:
+#    docker:
+#      - image: alpine:3.7
     steps:
       - run:
           name: Hello World
