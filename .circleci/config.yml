@@ -5,7 +5,15 @@ jobs:
       - image: alpine:3.7
     steps:
       - run:
-          name: The First Step
+          name: STEP 1
           command: |
-            echo 'Hello World!'
-            echo 'This is the delivery pipeline'
+            echo 'Hello earth'
+          name: STEP 2
+          command: |
+            echo 'hello world'
+          name: STEP 3
+          command: |
+            echo 'hello universe'
+          name: STEP 4
+          command: |
+            echo 'hello galaxy'
