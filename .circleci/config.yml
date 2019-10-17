@@ -2,6 +2,7 @@ version: 2.1
 jobs:
   Hello-World:
     macos:
+      xcode: "11.0.1"
     steps:
       - run:
           name: Hello World
